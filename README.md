@@ -15,21 +15,25 @@ go mod init todo
 ## Step 03
 
 ```shell
+ go build
 ```
 
 ## Step 04
 
 ```shell
+./todo
 ```
 
 ## Step 05
 
 ```shell
+cobra add hello
 ```
 
 ## Step 06
 
 ```shell
+go build
 ```
 
 ## References:
