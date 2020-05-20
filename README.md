@@ -3,11 +3,13 @@
 ## Step 01
 
 ```shell
+cobra init --pkg-nam todo
 ```
 
 ## Step 02
 
 ```shell
+go mod init todo
 ```
 
 ## Step 03
@@ -31,5 +33,7 @@
 ```
 
 ## References:
+
+[Documentattion Cobra](https://github.com/spf13/cobra/)
 
 [12 Factor CLI Apps with Cobra | Markus Zimmermann](https://www.youtube.com/watch?v=W5qdsAEzgMI)
