@@ -32,4 +32,4 @@
 
 ## References:
 
-(12 Factor CLI Apps with Cobra | Markus Zimmermann)[https://www.youtube.com/watch?v=W5qdsAEzgMI]
+[12 Factor CLI Apps with Cobra | Markus Zimmermann](https://www.youtube.com/watch?v=W5qdsAEzgMI)
