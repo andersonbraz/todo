@@ -1,4 +1,4 @@
-# Hands-on: Create CLI Cobra
+# Hands-on: Create CLI With Cobra
 
 ## Step 01
 
