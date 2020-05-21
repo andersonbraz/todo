@@ -38,6 +38,6 @@ go build
 
 ## References:
 
-[Documentattion Cobra](https://github.com/spf13/cobra/)
+[Documentation Cobra](https://github.com/spf13/cobra/)
 
 [12 Factor CLI Apps with Cobra | Markus Zimmermann](https://www.youtube.com/watch?v=W5qdsAEzgMI)
