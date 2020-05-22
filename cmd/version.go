@@ -27,7 +27,7 @@ var versionCmd = &cobra.Command{
 	Short: "Print Version this Application.",
 	Long:  `All software has versions. This is Application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Todo ")
+		fmt.Println("My CLI - Version: 1.0 (Beta)")
 	},
 }
 
