@@ -25,7 +25,7 @@ import (
 var removeCmd = &cobra.Command{
 	Use:   "remove",
 	Short: "Remove item of TODO.",
-	Long:  `Execute ./todo add "item"`,
+	Long:  `Execute Command: ./todo remove "item"`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("remove called")
 	},

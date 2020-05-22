@@ -24,8 +24,8 @@ import (
 // listCmd represents the list command
 var listCmd = &cobra.Command{
 	Use:   "list",
-	Short: "A brief description of your command",
-	Long:  `List all itens of TODO.`,
+	Short: "List all itens of TODO.",
+	Long:  `Execute Command: ./todo list`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("list called")
 	},
