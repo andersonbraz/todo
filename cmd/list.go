@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
 )
 
 // listCmd represents the list command
@@ -12,7 +13,7 @@ var listCmd = &cobra.Command{
 	Short: "List all itens of TODO.",
 	Long:  `Execute Command: ./todo list`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("list called")
+		fmt.Println("Jobs:", viper.GetStringSlice("list"))
 	},
 }
 
