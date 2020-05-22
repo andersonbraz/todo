@@ -1,2 +1,4 @@
-VARONE=value-one
-VARTWO=value-two
+name: "Anderson Braz"
+position: "Developer"
+local: "Brasilia"
+theme: "DevOps"
