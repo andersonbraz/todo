@@ -43,3 +43,5 @@ go build
 [12 Factor CLI Apps with Cobra | Markus Zimmermann](https://www.youtube.com/watch?v=W5qdsAEzgMI)
 
 [Cobra for Dev](https://cobra.dev/)
+
+[Go by Example](https://gobyexample.com/)
