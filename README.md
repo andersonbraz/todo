@@ -3,7 +3,7 @@
 ## Step 01
 
 ```shell
-cobra init --pkg-nam todo
+cobra init --pkg-name todo
 ```
 
 ## Step 02
