@@ -14,6 +14,8 @@ var showCmd = &cobra.Command{
 	Long:  `Execute Command: ./todo show`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Name:", viper.GetString("name"))
+		fmt.Println("Position:", viper.GetString("position"))
+		fmt.Println("Local:", viper.GetString("local"))
 		fmt.Println("Theme:", viper.GetString("theme"))
 	},
 }
