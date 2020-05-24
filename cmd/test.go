@@ -10,7 +10,7 @@ import (
 // testCmd represents the test command
 var testCmd = &cobra.Command{
 	Use:   "test",
-	Short: "Get Variables Enviroment",
+	Short: "Get Environment Variables",
 	Long:  `Execute Command: ./todo test`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("My HOME:", os.Getenv("HOME"))
