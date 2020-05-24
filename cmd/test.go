@@ -3,6 +3,7 @@ package cmd
 import (
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/spf13/cobra"
 )
@@ -13,9 +14,17 @@ var testCmd = &cobra.Command{
 	Short: "Get Environment Variables",
 	Long:  `Execute Command: ./todo test`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("My HOME:", os.Getenv("HOME"))
-		fmt.Println("My GOPATH:", os.Getenv("GOPATH"))
-		fmt.Println("My PATH:", os.Getenv("PATH"))
+
+		//fmt.Println("My HOME:", os.Getenv("HOME"))
+		//fmt.Println("My GOPATH:", os.Getenv("GOPATH"))
+		//fmt.Println("My PATH:", os.Getenv("PATH"))
+
+		for _, e := range os.Environ() {
+			pair := strings.SplitN(e, "=", 2)
+			fmt.Println("Key:", pair[0])
+			fmt.Println("Value:", pair[1])
+		}
+
 	},
 }
 
